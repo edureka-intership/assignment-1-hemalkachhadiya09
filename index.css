@@ -223,7 +223,7 @@ a{
     #logo {
                 height: 150px;
                 width: 150px;
-                background-color: white;
+                background-color: #9e9e9eb0;
                 position: absolute;
                 margin-left: 42%;
                 margin-top: 8%;
@@ -232,7 +232,7 @@ a{
 
     #iden > span {
                 font-size: 75px;
-                color: gray;
+                color:#ffffff8a;
                 margin-left: 46%;
                 position: absolute;
                 margin-top: 11%;
@@ -283,7 +283,7 @@ a{
     #logo {
         height: 150px;
         width: 150px;
-        background-color: white;
+        background-color: #9e9e9eb0;
         position: absolute;
         margin-left: 36%;
         margin-top: 14%;
@@ -292,7 +292,7 @@ a{
 
     #iden > span {
         font-size: 75px;
-        color: gray;
+        color: #ffffff8a;
         margin-left: 42%;
         position: absolute;
         margin-top: 18%;
@@ -326,7 +326,7 @@ a{
         margin-left: 12%;
         position: absolute;
         margin-top: 45%;
-        color: white;
+        color: #9e9e9eb0;
         font-weight: bold;
     }
     #find {
@@ -336,10 +336,41 @@ a{
         margin-top: 56%;
         position: absolute;
     }
+    #iden > span{
+        color: #ffffff8a;
+    }
 }
 @media screen and (max-width:550px)
 {
     body{
+        }
+    .menu {
+            width: 28px;
+            height: 4px;
+            background-color: black;
+            margin: 6px 0;
+            display: block;
+        }
+        #menubar {
+            float: left;
+            margin-left: 1%;
+            margin-top: 3%;
+        }
+        #name {
+            margin-left: 3%;
+            color: black;
+            float: left;
+            font-size: 34px;
+            font-weight: bold;
+            margin-top: 2%;
+        }
+        #sign {
+            float: right;
+            margin-right: 9px;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 4%;
         }
     #text > span {
             font-size: 30px;
@@ -359,7 +390,7 @@ a{
     #logo {
         height: 150px;
         width: 150px;
-        background-color: white;
+        background-color: #9e9e9eb0;
         position: absolute;
         margin-left: 36%;
         margin-top: 14%;
@@ -368,7 +399,7 @@ a{
 
     #iden > span {
         font-size: 75px;
-        color: gray;
+        color: #ffffff8a;
         margin-left: 45%;
         position: absolute;
         margin-top: 19%;
