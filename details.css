@@ -45,30 +45,30 @@ body{
     font-size:35px
 }
 #demain{
-    height:700px;
+    height:544px;
     width:96%;
     margin-left:2%;
-    margin-top:1%;
+    margin-top:3%;
     
 }
-#subdemain1{
-    height:500px;
-    width:45%;
-    border:10px groove gray;
-    float:left;
-    margin-left:2%;
-    margin-top:1%;
-    background-image:url('images/burger1.png');
+#subdemain1 {
+    height: 392px;
+    width: 30%;
+    border: 10px groove gray;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-image: url(images/burger1.png);
     background-repeat: no-repeat;
-    background-size: 100% 500px;
+    background-size: 100% 392px;
 }
 #subdemain2{
-    height:630px;
+    height:433px;
     width:48%;
-    border:2px solid hotpink;
+    
     float:left;
     margin-left:2%;
-    margin-top:1%;
+    margin-top:-1%;
 }
 #footer{
     background-color:#9e9e9e5c;
