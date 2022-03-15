@@ -73,6 +73,28 @@ body{
 .checked{
     color:orange;
 }
+#feature{
+    display:inline-block;
+}
+#subfeature{
+    float:left;
+}
+.f1{
+    height:100px;
+    width:73%;
+}
+#a1{
+    color:green
+}
+.btn{
+    background-color:rgba(0, 128, 0, 0.253);
+    color:gray;
+    font-size:30px
+
+}
+.btn:hover{
+    transform:scale(1.1)
+}
 #footer{
     background-color:#9e9e9e5c;
     
