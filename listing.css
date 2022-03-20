@@ -193,7 +193,7 @@ h1,h2,h3{
 a{
     text-decoration: none;
 }
-
+/* Navigation bar */
 .bgcolor{
     background-color:#9e9e9e4f
 }
@@ -206,4 +206,81 @@ a{
 }
 .navbar{
     margin-bottom:0px !important
+}
+@media screen and (max-width:1260px)
+{
+    #content{
+        margin-left:5%;
+    }
+    .content1{
+        width: 110%;
+    }
+    #filterDiv{
+        height:636px;
+    }
+    .inpur {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:920px)
+{
+    #filterDiv{
+        width:23%;
+    }
+    .head{
+        font-size: 21px;
+    }
+    .subcontent2 > p {
+        font-size:13px;
+    }
+    .slogo {
+        height: 67px;
+        width: 9%;
+        margin-top: 1%;
+        margin-left: 18%;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .subcontent2 > p {
+        font-size: 11px;
+    }
+    .head {
+        font-size: 17px;
+    }
+    .inpur {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #filterDiv {
+        width: 28%;
+        height: 89%;
+    
+    }
+    .subcontent2{
+        margin-top: 3%;
+    }
+    #content {
+        margin-left: 1%;
+    }
+    #contentDiv{
+        margin-left: -6%;
+    }
+    .content1 {
+        width: 127%;
+    }
+}
+@media screen and (max-width:610px)
+{
+    .content1 {
+        width: 162%;
+    }
+    #filterDiv {
+        width: 121%;
+        height: 77%;
+    }
+}
+@media screen and (max-width:500px)
+{
+    
 }
